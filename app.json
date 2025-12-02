@@ -63,5 +63,37 @@
     "ignite": {
       "version": "11.3.2"
     }
+  },
+  "expo": {
+    "splash": {
+      "backgroundColor": "#ffffff"
+    },
+    "android": {
+      "splash": {
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.anonymous.aletheiamobile"
+    },
+    "ios": {
+      "splash": {
+        "backgroundColor": "#ffffff"
+      },
+      "privacyManifests": {
+        "NSPrivacyAccessedAPITypes": [
+          {
+            "NSPrivacyAccessedAPIType": "NSPrivacyAccessedAPICategoryUserDefaults",
+            "NSPrivacyAccessedAPITypeReasons": [
+              "CA92.1"
+            ]
+          }
+        ]
+      },
+      "bundleIdentifier": "com.anonymous.aletheiamobile"
+    },
+    "web": {
+      "splash": {
+        "backgroundColor": "#ffffff"
+      }
+    }
   }
 }
